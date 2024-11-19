@@ -37,7 +37,7 @@ f = st.number_input(' 식사를 하루 몇 끼 하시나요? ', value=0)
 g = st.number_input(' 간식을 얼마나 드시는지 0에서3 척도로 알려주십시오.', value=0)
 h = st.number_input(' 신체활동을 얼마나 하시는지 0에서3 척도로 알려주십시오. ', value=0)
 
-if st.button('합불분류'):              # 사용자가 '합불분류' 버튼을 누르면
+if st.button('비만 예측'):              # 사용자가 '합불분류' 버튼을 누르면
         input_data = [[ a,b,c,d,e,f,g,h ]]          # 사용자가 입력한 a,b,c 를 input_data에 저장하고
         p = model.predict(input_data)      # model이 분류한 값을 p에 저장한다
         if p[0] == 1 :
