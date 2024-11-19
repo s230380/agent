@@ -24,7 +24,7 @@ with col2:
       st.image('___2.png' )   # 이미지 불러오기
 with col3:
       st.subheader('데이터시각화2')
-      st.image('__3.png')
+      st.image('___3.png')
 st.subheader('모델 활용')
 st.write('**** 밑의 내용을 입력해주세요. 인공지능이 당신의 비만도를 알려드립니다!')
 
