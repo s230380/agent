@@ -8,9 +8,10 @@ model = joblib.load('logistic_regression_model.pkl')
 
 # 2. 모델 설명
 st.title('비만 분류기')
+st.subheader('식습관으로 나의 비만 예측하고 건강 관리 시작하기')
 col1, col2,col3 = st.columns( 3 )      # 몇 개의 컬럼으로 나눌까?
 with col1:
-      st.subheader('식습관으로 나의 비만 예측하고 건강 관리 시작하기')
+      st.subheader('모델설명')
       st.write(' - 기계학습 알고리즘 : 로지스틱 회귀 ')
       st.write(' - 학습 데이터 출처 : https://www.kaggle.com/datasets/muhramasaputra/obesity-based-on-eating-habits-and-physical-cond')
       st.write(' - 훈련    데이터 : 2111건')
