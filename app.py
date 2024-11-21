@@ -28,8 +28,8 @@ with col3:
 st.subheader('모델 활용')
 st.write('**** 밑의 내용을 입력해주세요. 인공지능이 당신의 비만도를 알려드립니다!')
 
-a = st.number_input(' 나이 입력 ', value=0)
-b = st.number_input(' 성별 입력(남자면1 여자면0) ', value=0)
+a = st.number_input(' 성별 입력(남자면1 여자면0) ', value=0)
+b = st.number_input(' 나이 입력 ', value=0)
 c = st.number_input(' 가족중 비만인 사람이 있나요?(예면1 아니면0) ', value=0)
 d = st.number_input(' 고칼로리 음식을 자주 섭취하시나요?(예면1 아니면0)', value=0)
 e = st.number_input(' 야채를 어느정도 먹는지 1부터3 척도로 알려주십시오' , value=0)
